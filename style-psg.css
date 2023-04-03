@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(236, 235, 250);
+    border-radius: 5px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+.pagination .page {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: rgb(253, 253, 253);
+    margin: 0 4px;
+    color: rgb(38, 38, 194);
+    cursor: pointer;
+    transition: .3;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    border: 1px solid;
+
+}
+
+.pagination .page:hover {
+    background-color: rgb(38, 38, 194);
+    border: 1px solid rgb(38, 38, 194);
+    color: aliceblue;
+}
